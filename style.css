@@ -40,3 +40,31 @@ header h1{
 .fa-solid.fa-location-dot{
     padding-right: 15px;
 }
+
+.reserver-le-menu{
+    text-align: center;
+}
+
+.reserver-le-menu h2{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.reserver-le-menu p{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.reserver-le-menu button{
+    border-radius: 25px;
+    padding: 13px;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border: transparent;
+    box-shadow: rgba(153, 153, 153, 0.516) 0px 2px 20px 1px;
+}
+
+.reserver-le-menu button p{
+    margin: 0px;
+    color: white;
+}

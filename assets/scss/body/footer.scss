@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(53, 53, 53);
+    padding-bottom: 30px;
+    h2{
+        margin: 0;
+        color: white;
+        font-family: 'Shrikhand', cursive;
+        font-size: medium;
+        padding: 20px 0 10px 20px;
+    }
+    p{
+        margin: 0;
+        color: white;
+        padding: 5px 0 5px 20px;
+        i{
+            padding: 0 8px 0 0;
+            font-size: small;
+        }
+        .fa-solid.fa-handshake-angle{
+            font-size: x-small;
+        }
+    }
+}

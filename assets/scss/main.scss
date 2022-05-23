@@ -1,8 +1,12 @@
-@use "./header/base.scss";
-@use "./header/header.scss";
-@use "./header/localisation.scss";
-@use "./header/reservez-le-menu.scss";
-@use "./body/Fonctionnement.scss";
+@use "./variables.scss";
+@import "./header/base.scss";
+@import "./header/header.scss";
+@import "./header/localisation.scss";
+@import "./header/reservez-le-menu.scss";
+@import "./body/Fonctionnement.scss";
+@import "./body/Restaurants.scss";
+@import "./body/footer.scss";
+
 .color-blanc{
     color: white;
 }
@@ -21,4 +25,7 @@ color: black;
 }
 .background-violet{
     background-color: #9356DC;
+}
+@mixin background__gris__clair {
+    background-color: lightgrey;
 }

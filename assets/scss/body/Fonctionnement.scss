@@ -13,6 +13,11 @@
         flex-direction: row;
         align-items: center;
         margin: 0 30px 20px 30px;
+        box-shadow: variables.$ombre;
+        -webkit-box-shadow: variables.$ombre;
+
+        // -webkit-box-shadow: 0px 7px 13px 0px rgba(91,91,91,0.15); 
+        // box-shadow: 0px 7px 13px 0px rgba(91,91,91,0.15);
 
         p{
             margin-left: -10px;
@@ -23,6 +28,7 @@
     }
     div:hover{
         background-color: #9256dc1b;
+        
         .fa-solid{
             color: #9356DC;
             }

@@ -1,0 +1,95 @@
+.Menu__restaurants{
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 30px;
+    > div{
+        box-shadow: variables.$ombre;
+        -webkit-box-shadow: variables.$ombre;
+    }
+
+    h2{
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    a{
+        block-size: 10px;
+        text-decoration: none;
+    }
+
+    .etiquette-nouveau{
+        height: 25px;
+        width: 80px;
+        background-color: variables.$vert;
+        position: absolute;
+        display: flex;
+        right: 10px;
+        top: 10px;
+        border-radius: 2px;
+        p{
+        padding-top: 5px;
+        padding-left: 5px;
+        color: #008062;
+        }
+    }
+
+    .Menu__X{
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 200px;
+        width: 300px;
+        border-radius: 15px;
+        position: relative;
+
+        .Flex__Menu{
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .fa-solid.fa-heart{
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: large;
+        margin-bottom: 20px;
+        opacity: 0;
+        background-image: linear-gradient(variables.$violet,variables.$rose );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        }
+
+        .fa-solid.fa-heart:hover{
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        .fa-regular.fa-heart{
+        margin-top: 15px;
+        margin-right: -22px;
+        font-size: large;
+        margin-bottom: 20px;
+        }
+
+        img{
+            width: 100%;
+            height: 70%;
+            border-radius: 15px 15px 0 0;
+            object-fit: cover;
+        }
+
+        h3{
+            margin: 0;
+            margin-left: 10px;
+            margin-top: 8px;
+            margin-bottom: 3px;
+            font-size: medium;
+        }
+
+        p{
+            margin: 0;
+            margin-left: 10px;
+            font-size: small;
+        }
+    }
+}

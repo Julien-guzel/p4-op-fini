@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 /* font-family: 'Shrikhand', cursive; */
@@ -5,6 +6,11 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+}
+
+.image_header {
+  height: 200px;
+  width: 200px;
 }
 
 .titre {
@@ -118,14 +124,12 @@ body {
 .Menu__restaurants > div {
   box-shadow: 0px 7px 13px 0px rgba(91, 91, 91, 0.15);
   -webkit-box-shadow: 0px 7px 13px 0px rgba(91, 91, 91, 0.15);
-  margin-top: 30px;
 }
 .Menu__restaurants h2 {
   padding-top: 40px;
   margin-left: 20px;
 }
 .Menu__restaurants a {
-  block-size: 10px;
   text-decoration: none;
 }
 .Menu__restaurants .etiquette-nouveau {
@@ -150,6 +154,7 @@ body {
   width: 300px;
   border-radius: 15px;
   position: relative;
+  margin-top: 20px;
 }
 .Menu__restaurants .Menu__X .Flex__Menu {
   display: flex;
@@ -218,6 +223,160 @@ footer p i {
 }
 footer p .fa-solid.fa-handshake-angle {
   font-size: x-small;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+body > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@keyframes anim-vert {
+  from {
+    transform: rotate(-350deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+.entrer-plat-dessert .entrées {
+  font-size: small;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix {
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p {
+  margin-right: 36px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p2 {
+  margin-right: 2px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p3 {
+  margin-right: 88px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p4 {
+  margin-right: -51px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p5 {
+  margin-right: -28px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p6 {
+  margin-right: -39px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p7 {
+  margin-right: 28px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p8 {
+  margin-right: 65px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .double-p9 {
+  margin-right: 16px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix:hover .fa-solid.fa-check {
+  animation: anim-vert 1s ease;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p, .entrer-plat-dessert .entrées .ingredients-prix .double-p2, .entrer-plat-dessert .entrées .ingredients-prix .double-p3, .entrer-plat-dessert .entrées .ingredients-prix .double-p4, .entrer-plat-dessert .entrées .ingredients-prix .double-p5, .entrer-plat-dessert .entrées .ingredients-prix .double-p6, .entrer-plat-dessert .entrées .ingredients-prix .double-p7, .entrer-plat-dessert .entrées .ingredients-prix .double-p8, .entrer-plat-dessert .entrées .ingredients-prix .double-p9 {
+  transition-property: all;
+  transition-duration: 1s;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p {
+  margin-right: 95.8px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p2 {
+  margin-right: 61.4px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p3 {
+  margin-right: 147.8px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p4 {
+  margin-right: 9px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p5 {
+  margin-right: 31.1px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p6 {
+  margin-right: 20.6px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p7 {
+  margin-right: 87.4px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p8 {
+  margin-right: 124.3px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .double-p9 {
+  margin-right: 75.6px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .animation-vert {
+  border-radius: 0 15px 15px 0;
+  margin: 0;
+  background-color: #99E2D0;
+  width: 60px;
+  height: 50px;
+  margin-right: -60px;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .animation-vert .fa-solid.fa-check {
+  background-color: white;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 14px 14px 14px 20px;
+  color: #99E2D0;
+}
+.entrer-plat-dessert .entrées .ingredients-prix .prix {
+  padding-top: 23px;
+}
+.entrer-plat-dessert .entrées h3 {
+  width: 30px;
+  border-bottom: 3px solid #99E2D0;
+  padding-bottom: 4px;
+}
+.entrer-plat-dessert .entrées > div {
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  animation: 1s;
+}
+.entrer-plat-dessert .entrées > div h4 {
+  margin: 0;
+  padding: 8px 0 0 10px;
+  color: black;
+}
+.entrer-plat-dessert .entrées p {
+  margin: 0px;
+  padding: 3px 0 8px 10px;
+  padding-right: 15px;
+}
+
+.a_la_francaise {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-radius: 25px 25px 0 0;
+  background-color: #eeeeee;
+  margin-top: -30px;
+  position: relative;
+}
+.a_la_francaise h2 {
+  margin-left: 20px;
+  font-family: "Shrikhand", cursive;
+}
+.a_la_francaise .fa-regular.fa-heart {
+  margin-right: 30px;
+}
+
+.entrer-plat-dessert {
+  padding-bottom: 50px;
+  background-color: #eeeeee;
+  margin-top: -15px;
 }
 
 .color-blanc {

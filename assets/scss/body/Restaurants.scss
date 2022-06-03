@@ -6,7 +6,6 @@
     > div{
         box-shadow: variables.$ombre;
         -webkit-box-shadow: variables.$ombre;
-        margin-top: 30px;
     }
 
     h2{
@@ -15,7 +14,7 @@
     }
 
     a{
-        block-size: 10px;
+        // block-size: 10px;
         text-decoration: none;
     }
 
@@ -44,6 +43,7 @@
         width: 300px;
         border-radius: 15px;
         position: relative;
+        margin-top: 20px;
 
         .Flex__Menu{
         display: flex;
@@ -60,12 +60,11 @@
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        }
-
-        .fa-solid.fa-heart:hover{
-            opacity: 1;
-            transform: scale(1.2);
-            transition: 1s;
+            &:hover{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 1s;
+            }
         }
 
         .fa-regular.fa-heart{

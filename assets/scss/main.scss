@@ -6,6 +6,12 @@
 @import "./body/Fonctionnement.scss";
 @import "./body/Restaurants.scss";
 @import "./body/footer.scss";
+@import "./les_menus/alafrancaise/header/base.scss";
+@import "./les_menus/alafrancaise/header/header_image.scss";
+@import "./les_menus/alafrancaise/body/desserts.scss";
+@import "./les_menus/alafrancaise/body/entrees.scss";
+@import "./les_menus/alafrancaise/body/plats.scss";
+@import "./les_menus/alafrancaise/body/titre-a-la-francaise.scss";
 
 .color-blanc{
     color: white;

@@ -1,21 +1,28 @@
+.titre_restaurants{
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
 .Menu__restaurants{
     background-color: rgb(241, 241, 241);
     padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 30px;
     > div{
         box-shadow: variables.$ombre;
         -webkit-box-shadow: variables.$ombre;
     }
 
-    h2{
-        padding-top: 40px;
-        margin-left: 20px;
-    }
-
     a{
-        // block-size: 10px;
         text-decoration: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .etiquette-nouveau{
@@ -36,14 +43,11 @@
 
     .Menu__X{
         background-color: white;
-        margin-left: 20px;
-        // margin-right: 20px;
-        // margin-bottom: 20px;
         height: 200px;
         width: 300px;
         border-radius: 15px;
         position: relative;
-        margin-top: 20px;
+        -webkit-box-shadow: 0px 7px 13px 0px rgb(91 91 91 / 15%);
 
         .Flex__Menu{
         display: flex;
@@ -51,28 +55,28 @@
         }
 
         .fa-solid.fa-heart{
-        margin-top: 15px;
-        margin-right: 15px;
-        font-size: large;
-        margin-bottom: 20px;
-        opacity: 0;
-        background-image: linear-gradient(variables.$violet,variables.$rose );
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-            &:hover{
-                opacity: 1;
-                transform: scale(1.2);
-                transition: 1s;
+            margin-top: 15px;
+            margin-right: 15px;
+            font-size: large;
+            margin-bottom: 20px;
+            opacity: 0;
+            background-image: linear-gradient(variables.$violet,variables.$rose );
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+                &:hover{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 1s;
+                }
             }
-        }
-
-        .fa-regular.fa-heart{
-        margin-top: 15px;
-        margin-right: -22px;
-        font-size: large;
-        margin-bottom: 20px;
-        }
+    
+            .fa-regular.fa-heart{
+            margin-top: 15px;
+            margin-right: -22px;
+            font-size: large;
+            margin-bottom: 20px;
+            }
 
         img{
             width: 100%;

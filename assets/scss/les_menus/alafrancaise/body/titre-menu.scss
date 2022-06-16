@@ -27,11 +27,11 @@
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
-                &:hover{
-                    opacity: 1;
-                    transform: scale(1.2);
-                    transition: 0.4s;
-                }
+            &:hover{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 0.4s;
             }
+        }
     }
 }

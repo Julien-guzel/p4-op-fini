@@ -2,17 +2,15 @@
     text-align: center;
 
     h2{
-    margin: 0px;
-    padding-top: 40px;
-    margin-bottom: 0px;
+        margin: 0px;
+        padding-top: 40px;
+        margin-bottom: 0px;
     }
-    
     p{
-    color: gray;
-    margin-top: 10px;
-    margin-bottom: 25px;
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: 25px;
     }
-
     .boutton-explorer-nos-restaurants{
         border-radius: 25px;
         padding: 13px;
@@ -21,15 +19,14 @@
         border: transparent;
         -webkit-box-shadow: -1px 5px 19px -1px rgba(0,0,0,0.42); 
         box-shadow: -1px 5px 19px -1px rgba(32, 1, 1, 0.42);
-
-        span{
-        margin: 0px;
+        &:hover{
+            background-image: linear-gradient(#fd86db , #9b61e2);
+            -webkit-box-shadow: -1px 5px 19px -1px rgba(0,0,0,0.42); 
+            box-shadow: -1px 5px 19px -1px rgba(32, 1, 1, 0.807);
+            transition: 1s;
         }
-    }
-    .boutton-explorer-nos-restaurants:hover{
-        background-image: linear-gradient(#fd86db , #9b61e2);
-        -webkit-box-shadow: -1px 5px 19px -1px rgba(0,0,0,0.42); 
-        box-shadow: -1px 5px 19px -1px rgba(32, 1, 1, 0.807);
-        transition: 1s;
+        span{
+            margin: 0px;
+        }
     }
 }

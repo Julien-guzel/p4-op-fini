@@ -6,7 +6,7 @@
 }
 .Menu__restaurants{
     padding-left: 20px;
-    gap: 20px;
+    // gap: 20px;
     background-color: rgb(241, 241, 241);
     padding-bottom: 60px;
     display: flex;
@@ -92,5 +92,22 @@
                 object-fit: cover;
             }
         }
+    }
+}
+
+@media (max-width: 1240px) {
+    .Menu__restaurants {
+      justify-content: center;
+      >a{
+        margin: 0 60px 0 60px;
+      }
+    }
+}
+
+@media (max-width: 880px) {
+    .Menu__restaurants {
+      >a{
+        margin: auto;
+      }
     }
 }

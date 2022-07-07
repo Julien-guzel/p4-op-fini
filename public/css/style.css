@@ -38,9 +38,9 @@ body {
   background-color: rgb(232, 232, 232);
   z-index: 1;
   opacity: 0.7;
-  animation: chargement 2.5s;
+  animation: chargement 3s;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 .chargement i {
   margin-left: auto;

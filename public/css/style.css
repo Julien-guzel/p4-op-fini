@@ -4,6 +4,8 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .image_header {
@@ -87,9 +89,11 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
+  color: #4b4b4b;
 }
 .Localisation h4 .fa-solid.fa-location-dot {
   padding-right: 15px;
+  color: black;
 }
 
 .reserver-le-menu {
@@ -99,11 +103,15 @@ body {
   margin: 0px;
   padding-top: 40px;
   margin-bottom: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .reserver-le-menu p {
   color: gray;
   margin-top: 10px;
   margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .reserver-le-menu .boutton-explorer-nos-restaurants {
   border-radius: 25px;
@@ -133,7 +141,7 @@ body {
   gap: 20px;
   margin-bottom: 50px;
   margin-left: 25px;
-  margin-right: 15px;
+  margin-right: 25px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -144,13 +152,14 @@ body {
   align-items: center;
   -webkit-box-shadow: 0px 7px 13px 0px rgba(91, 91, 91, 0.15);
   width: 380px;
-  min-width: 318px;
+  min-width: 300px;
   margin: auto;
+  height: 60px;
 }
 .Fonctionnement .background-gris-clair p {
   margin-left: -10px;
   border-radius: 50%;
-  padding: 2px 6px 2px 6px;
+  padding: 2px 7px 2px 7px;
   color: white;
 }
 .Fonctionnement .background-gris-clair .fa-solid.fa-mobile-screen-button {
@@ -174,13 +183,12 @@ body {
 
 .titre_restaurants {
   margin: 0;
-  padding-left: 30px;
-  padding-top: 20px;
+  padding-left: 12px;
+  padding-top: 55px;
   background-color: rgb(241, 241, 241);
 }
 
 .Menu__restaurants {
-  padding-left: 20px;
   background-color: rgb(241, 241, 241);
   padding-bottom: 60px;
   display: flex;
@@ -193,32 +201,32 @@ body {
   margin-left: 10px;
   font-size: small;
 }
-.Menu__restaurants > a {
-  text-decoration: none;
-  display: flex;
-  margin: auto;
-}
-.Menu__restaurants > a .Menu__X {
+.Menu__restaurants .Menu__X {
   margin-bottom: 15px;
   background-color: white;
   height: 200px;
-  width: 300px;
+  width: 347px;
   border-radius: 15px;
   position: relative;
+  text-decoration: none;
   -webkit-box-shadow: 0px 7px 13px 0px rgba(91, 91, 91, 0.15);
 }
-.Menu__restaurants > a .Menu__X .Flex__Menu {
+.Menu__restaurants .Menu__X > a {
+  text-decoration: none;
+  display: flex;
+}
+.Menu__restaurants .Menu__X .Flex__Menu {
   display: flex;
   justify-content: space-between;
   color: black;
 }
-.Menu__restaurants > a .Menu__X .Flex__Menu .icone_coeur .fa-regular.fa-heart {
+.Menu__restaurants .Menu__X .Flex__Menu .icone_coeur .fa-regular.fa-heart {
   margin-top: 15px;
   margin-right: -22px;
   font-size: large;
   margin-bottom: 20px;
 }
-.Menu__restaurants > a .Menu__X .Flex__Menu .fa-solid.fa-heart {
+.Menu__restaurants .Menu__X .Flex__Menu .fa-solid.fa-heart {
   margin-top: 15px;
   margin-right: 15px;
   font-size: large;
@@ -229,19 +237,19 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
-.Menu__restaurants > a .Menu__X .Flex__Menu .fa-solid.fa-heart:hover {
+.Menu__restaurants .Menu__X .Flex__Menu .fa-solid.fa-heart:hover {
   opacity: 1;
   transform: scale(1.2);
   transition: 0.7s;
 }
-.Menu__restaurants > a .Menu__X .Flex__Menu > div h3 {
+.Menu__restaurants .Menu__X .Flex__Menu > div h3 {
   margin: 0;
   margin-left: 10px;
   margin-top: 8px;
   margin-bottom: 3px;
   font-size: medium;
 }
-.Menu__restaurants > a .Menu__X .etiquette-nouveau {
+.Menu__restaurants .Menu__X .etiquette-nouveau {
   height: 25px;
   width: 80px;
   background-color: #99E2D0;
@@ -251,7 +259,7 @@ body {
   top: 10px;
   border-radius: 2px;
 }
-.Menu__restaurants > a .Menu__X .etiquette-nouveau > p {
+.Menu__restaurants .Menu__X .etiquette-nouveau > p {
   padding-top: 5px;
   padding-left: 5px;
   color: #008062;
@@ -259,21 +267,23 @@ body {
   margin-left: 10px;
   font-size: small;
 }
-.Menu__restaurants > a .Menu__X img {
+.Menu__restaurants .Menu__X img {
   width: 100%;
-  height: 70%;
+  height: 145px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
 
-@media (max-width: 1240px) {
-  .Menu__restaurants > a {
-    margin: 0 60px 0 60px;
+@media (max-width: 1410px) {
+  .Menu__restaurants > .Menu__X {
+    margin-left: 80px;
+    margin-right: 80px;
   }
 }
-@media (max-width: 880px) {
-  .Menu__restaurants > a {
-    margin: auto;
+@media (max-width: 1015px) {
+  .Menu__restaurants > .Menu__X {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 footer {
@@ -314,9 +324,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-body > img {
+main > img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -368,7 +378,6 @@ body > img {
   margin-top: -15px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 20px;
 }
 .entrer-plat-dessert .entrées {
   font-size: small;
@@ -382,7 +391,7 @@ body > img {
   padding-bottom: 4px;
 }
 .entrer-plat-dessert .entrées .entrée-1-div {
-  width: 317px;
+  width: 349px;
   background-color: white;
   border-radius: 15px;
   margin-bottom: 10px;
